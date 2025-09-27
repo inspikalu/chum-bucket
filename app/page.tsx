@@ -46,17 +46,17 @@ export default function Home() {
           </Link>
         </nav>
         <div className="flex items-center gap-4">
-          <Link
+          {/* <Link
             href="/login"
             className="bg-white text-[#0A85C2] px-4 py-1 rounded-full font-londrina text-sm hover-bounce interactive-button"
           >
             LOG IN
-          </Link>
+          </Link> */}
           <Link
             href="/signup"
             className="bg-[#FF5A76] text-white px-4 py-1 rounded-full font-londrina text-sm hover-bounce interactive-button"
           >
-            SIGN UP
+            Join the waitlist
           </Link>
         </div>
       </header>
@@ -644,17 +644,25 @@ export default function Home() {
             <div>
               <h3 className="text-xl font-londrina mb-4">LEGAL</h3>
               <ul className="space-y-2">
-                <li>
+                {/* <li>
                   <Link
                     href="#"
                     className="text-white hover:text-[#FF5A76] transition-colors font-londrina"
                   >
                     Terms
                   </Link>
+                </li> */}
+                <li>
+                  <Link
+                    href="/license"
+                    className="text-white hover:text-[#FF5A76] transition-colors font-londrina"
+                  >
+                    License
+                  </Link>
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="/privacy"
                     className="text-white hover:text-[#FF5A76] transition-colors font-londrina"
                   >
                     Privacy
@@ -662,10 +670,10 @@ export default function Home() {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="/copyright"
                     className="text-white hover:text-[#FF5A76] transition-colors font-londrina"
                   >
-                    Cookies
+                    Copyright
                   </Link>
                 </li>
               </ul>
