@@ -80,12 +80,14 @@ export default function Home() {
               <p className="text-white text-center max-w-2xl font-londrina text-xl mb-8">
                 CHALLENGE YOUR FRIENDS, MAKE BETS, HAVE FUN!
               </p>
-              <Link
-                href="/download"
-                className="bg-[#FF5A76] text-white px-8 py-3 rounded-full font-londrina text-xl hover-bounce interactive-button"
-              >
-                DOWNLOAD NOW
-              </Link>
+              <div className="flex gap-4">
+                <Link
+                  href="/app-release.apk"
+                  className="bg-white text-[#0A85C2] px-8 py-3 rounded-full font-londrina text-xl hover-bounce interactive-button"
+                >
+                  Download App
+                </Link>
+              </div>
             </div>
           </div>
         </section>
