@@ -53,10 +53,10 @@ export default function Home() {
             LOG IN
           </Link> */}
           <Link
-            href="/signup"
+            href="/app-release.apk"
             className="bg-[#FF5A76] text-white px-4 py-1 rounded-full font-londrina text-sm hover-bounce interactive-button"
           >
-            Join the waitlist
+            Download App
           </Link>
         </div>
       </header>
